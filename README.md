@@ -15,10 +15,10 @@ During my preparation, I built several labs on various networking topics using C
 
 ## Networking Labs
 
-### [VLAN Lab](./Vlan_Lab.pkt)
+### [VLAN Lab](./1. Vlan Lab.pkt)
 
 <p align="center">
-    <img src="./assets/Vlan_Lab.png" alt="VLAN Lab">
+    <img src="./assets/1. Vlan Lab.png" alt="VLAN Lab">
 </p>
 
 A. In this VLAN Lab, 2 VLANs are created: Black & Blue. S3 & S4 are connected with Trunk Links.
