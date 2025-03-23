@@ -65,7 +65,7 @@ OSPF is implemented between five routers. Router IDs used: 1.1.1.1, 2.2.2.2, 3.3
 
 HSRP (Hot Standby Routing Protocol) is implemented between Router0 & Router1. A virtual router with IP 10.1.1.4 /24 is set up. Router1 is Active while Router0 is Standby, taking over in case of failures.
 
-### [7. TACACS+ Authentication](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
+### [7. 7. AAA Implementation (TACACS+)](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
 
 <p align="center">
     <img src="./assets/7. AAA Implementation (TACACS+).png" alt="TACACS+ Authentication">
@@ -73,26 +73,26 @@ HSRP (Hot Standby Routing Protocol) is implemented between Router0 & Router1. A 
 
 A simple TACACS+ implementation where the router acts as a TACACS client while the server provides authentication services.
 
-### [8. WPA2-PSK Wireless Network](./8.%20WLAN%20WPA2%20PSK.pkt)
+### [8. WLAN WPA2 PSK](./8.%20WLAN%20WPA2%20PSK.pkt)
 
 <p align="center">
-    <img src="./assets/WPA2_PSK.png" alt="WPA2-PSK Wireless Network">
+    <img src="./assets/8. WLAN WPA2 PSK.png" alt="WPA2-PSK Wireless Network">
 </p>
 
 A wireless LAN setup where AP0, AP1 & AP2 connect via a backbone switch. Each AP is running WiFi on different channels to avoid overlapping, with different security configurations.
 
-### [9. Access Control Lists](./ACL_Implementation.pkt)
+### [9. ACL Lab](./9.%20ACL%20Lab.pkt)
 
 <p align="center">
-    <img src="./assets/ACL_Implementation.png" alt="Access Control Lists">
+    <img src="./assets/9. ACL Lab" alt="Access Control Lists">
 </p>
 
 Implementation of Access Control Lists (ACLs) to control traffic. Extended ACLs are deployed.
 
-### [10. GRE Tunnel](./GRE_Tunnel.pkt)
+### [10. STS VPN (GRE Tunnel)](./10.%20STS%20VPN%20(GRE%20Tunnel).pkt)
 
 <p align="center">
-    <img src="./assets/GRE_Tunnel.png" alt="GRE Tunnel">
+    <img src="./assets/10. STS VPN (GRE Tunnel).png" alt="GRE Tunnel">
 </p>
 
 A GRE Tunnel is established between Router0 and Router1 to allow secure communication.
