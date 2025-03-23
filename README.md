@@ -25,7 +25,7 @@ A. In this VLAN Lab, 2 VLANs are created: Black & Blue. S3 & S4 are connected wi
 
 B. PC0 - PC2 & PC1 - PC3 can communicate across the switches.
 
-### [2. Routing Lab (Static)](./Static_Routing_ROAS.pkt)
+### [2. Routing Lab (Static)](./2.%20Routing%20Lab%20(Static).pkt)
 
 <p align="center">
     <img src="./assets/2. Routing Lab (Static).png" alt="Static Routing & ROAS">
@@ -33,7 +33,7 @@ B. PC0 - PC2 & PC1 - PC3 can communicate across the switches.
 
 Static routes have been set up between Router1 & Router0. To communicate between VLAN 10 & VLAN 20, ROAS (Router on a Stick) is implemented.
 
-### [3. Routing Lab (RIP)](./RIP_Routing.pkt)
+### [3. Routing Lab (RIP)](./3.%20Routing%20Lab%20(RIP).pkt)
 
 <p align="center">
     <img src="./assets/3. Routing Lab (RIP).png" alt="RIP Routing">
@@ -41,7 +41,7 @@ Static routes have been set up between Router1 & Router0. To communicate between
 
 Router 0, 1, 2 & 3 are connected using RIP (Routing Information Protocol). All three networks (172.18.1.0, 10.2.1.0, 192.168.10.0) can communicate using RIP.
 
-### [4. IPV6 & Floating Routes (Static)](./IPv6_Routing.pkt)
+### [4. IPV6 & Floating Routes (Static)](./4.%20IPV6%20%26%20Floating%20Routes%20(Static).pkt)
 
 <p align="center">
     <img src="./assets/4. IPV6 & Floating Routes (Static).png" alt="IPv6 Routing">
@@ -49,7 +49,7 @@ Router 0, 1, 2 & 3 are connected using RIP (Routing Information Protocol). All t
 
 IPv6 addresses are used (2001:0db8:0:0::/64). Static routes are added via Router 15's G0/1/0 interface. A floating route is also configured on Router 15 via interface G0/0.
 
-### [OSPF Routing](./OSPF_Routing.pkt)
+### [OSPF Routing](./5.%20OSPF%20Implementation.pkt)
 
 <p align="center">
     <img src="./assets/5. OSPF Implementation.png" alt="OSPF Routing">
@@ -57,7 +57,7 @@ IPv6 addresses are used (2001:0db8:0:0::/64). Static routes are added via Router
 
 OSPF is implemented between five routers. Router IDs used: 1.1.1.1, 2.2.2.2, 3.3.3.3, 4.4.4.4, and 5.5.5.5.
 
-### [HSRP Setup](./HSRP_Setup.pkt)
+### [HSRP Setup](./6.%20FHRP%20HSRP%20LAB.pkt)
 
 <p align="center">
     <img src="./assets/HSRP_Setup.png" alt="HSRP Setup">
@@ -65,7 +65,7 @@ OSPF is implemented between five routers. Router IDs used: 1.1.1.1, 2.2.2.2, 3.3
 
 HSRP (Hot Standby Routing Protocol) is implemented between Router0 & Router1. A virtual router with IP 10.1.1.4 /24 is set up. Router1 is Active while Router0 is Standby, taking over in case of failures.
 
-### [TACACS+ Authentication](./TACACS_Authentication.pkt)
+### [TACACS+ Authentication](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
 
 <p align="center">
     <img src="./assets/TACACS_Authentication.png" alt="TACACS+ Authentication">
@@ -73,7 +73,7 @@ HSRP (Hot Standby Routing Protocol) is implemented between Router0 & Router1. A 
 
 A simple TACACS+ implementation where the router acts as a TACACS client while the server provides authentication services.
 
-### [WPA2-PSK Wireless Network](./WPA2_PSK.pkt)
+### [WPA2-PSK Wireless Network](./8.%20WLAN%20WPA2%20PSK.pkt)
 
 <p align="center">
     <img src="./assets/WPA2_PSK.png" alt="WPA2-PSK Wireless Network">
