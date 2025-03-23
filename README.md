@@ -49,7 +49,7 @@ Router 0, 1, 2 & 3 are connected using RIP (Routing Information Protocol). All t
 
 IPv6 addresses are used (2001:0db8:0:0::/64). Static routes are added via Router 15's G0/1/0 interface. A floating route is also configured on Router 15 via interface G0/0.
 
-### [OSPF Routing](./5.%20OSPF%20Implementation.pkt)
+### [5. OSPF Routing](./5.%20OSPF%20Implementation.pkt)
 
 <p align="center">
     <img src="./assets/5. OSPF Implementation.png" alt="OSPF Routing">
@@ -57,23 +57,23 @@ IPv6 addresses are used (2001:0db8:0:0::/64). Static routes are added via Router
 
 OSPF is implemented between five routers. Router IDs used: 1.1.1.1, 2.2.2.2, 3.3.3.3, 4.4.4.4, and 5.5.5.5.
 
-### [HSRP Setup](./6.%20FHRP%20HSRP%20LAB.pkt)
+### [6. HSRP Setup](./6.%20FHRP%20HSRP%20LAB.pkt)
 
 <p align="center">
-    <img src="./assets/HSRP_Setup.png" alt="HSRP Setup">
+    <img src="./assets/6. FHRP HSRP LAB.png" alt="HSRP Setup">
 </p>
 
 HSRP (Hot Standby Routing Protocol) is implemented between Router0 & Router1. A virtual router with IP 10.1.1.4 /24 is set up. Router1 is Active while Router0 is Standby, taking over in case of failures.
 
-### [TACACS+ Authentication](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
+### [7. TACACS+ Authentication](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
 
 <p align="center">
-    <img src="./assets/TACACS_Authentication.png" alt="TACACS+ Authentication">
+    <img src="./assets/7. AAA Implementation (TACACS+).png" alt="TACACS+ Authentication">
 </p>
 
 A simple TACACS+ implementation where the router acts as a TACACS client while the server provides authentication services.
 
-### [WPA2-PSK Wireless Network](./8.%20WLAN%20WPA2%20PSK.pkt)
+### [8. WPA2-PSK Wireless Network](./8.%20WLAN%20WPA2%20PSK.pkt)
 
 <p align="center">
     <img src="./assets/WPA2_PSK.png" alt="WPA2-PSK Wireless Network">
@@ -81,7 +81,7 @@ A simple TACACS+ implementation where the router acts as a TACACS client while t
 
 A wireless LAN setup where AP0, AP1 & AP2 connect via a backbone switch. Each AP is running WiFi on different channels to avoid overlapping, with different security configurations.
 
-### [Access Control Lists](./ACL_Implementation.pkt)
+### [9. Access Control Lists](./ACL_Implementation.pkt)
 
 <p align="center">
     <img src="./assets/ACL_Implementation.png" alt="Access Control Lists">
@@ -89,7 +89,7 @@ A wireless LAN setup where AP0, AP1 & AP2 connect via a backbone switch. Each AP
 
 Implementation of Access Control Lists (ACLs) to control traffic. Extended ACLs are deployed.
 
-### [GRE Tunnel](./GRE_Tunnel.pkt)
+### [10. GRE Tunnel](./GRE_Tunnel.pkt)
 
 <p align="center">
     <img src="./assets/GRE_Tunnel.png" alt="GRE Tunnel">
