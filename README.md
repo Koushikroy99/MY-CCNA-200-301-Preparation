@@ -65,7 +65,7 @@ OSPF is implemented between five routers. Router IDs used: 1.1.1.1, 2.2.2.2, 3.3
 
 HSRP (Hot Standby Routing Protocol) is implemented between Router0 & Router1. A virtual router with IP 10.1.1.4 /24 is set up. Router1 is Active while Router0 is Standby, taking over in case of failures.
 
-### [7. 7. AAA Implementation (TACACS+)](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
+### [7. AAA Implementation (TACACS+)](./7.%20AAA%20Implementation%20(TACACS%2B).pkt)
 
 <p align="center">
     <img src="./assets/7. AAA Implementation (TACACS+).png" alt="TACACS+ Authentication">
@@ -84,7 +84,7 @@ A wireless LAN setup where AP0, AP1 & AP2 connect via a backbone switch. Each AP
 ### [9. ACL Lab](./9.%20ACL%20Lab.pkt)
 
 <p align="center">
-    <img src="./assets/9. ACL Lab" alt="Access Control Lists">
+    <img src="./assets/9. ACL Lab.png" alt="Access Control Lists">
 </p>
 
 Implementation of Access Control Lists (ACLs) to control traffic. Extended ACLs are deployed.
