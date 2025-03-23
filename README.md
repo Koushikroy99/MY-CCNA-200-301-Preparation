@@ -15,7 +15,7 @@ During my preparation, I built several labs on various networking topics using C
 
 ## Networking Labs
 
-### [1. VLAN Lab](./Vlan Lab.pkt)
+### [1. VLAN Lab](./1.Vlan Lab.pkt)
 
 <p align="center">
     <img src="./assets/1. Vlan Lab.png" alt="VLAN Lab">
